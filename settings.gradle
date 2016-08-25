@@ -1,0 +1,4 @@
+rootProject.name = 'nevado'
+include ':nevado-jms'
+
+project(':nevado-jms').projectDir = "$rootDir/nevado-jms" as File
